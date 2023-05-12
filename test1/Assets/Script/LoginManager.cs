@@ -37,7 +37,7 @@ public class LoginManager : MonoBehaviour
     {
         if(popUpText.text == loginSuccess)
         {
-            SceneManager.LoadScene("DemoDay");
+            SceneManager.LoadScene("HomeScene");
         }
     }
 }

@@ -12,7 +12,7 @@ public class SceneChanger : MonoBehaviour
 
     public void registerToLoginChange()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("LoginScene");
     }
 
 }
