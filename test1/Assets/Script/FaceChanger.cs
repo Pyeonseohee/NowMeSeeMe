@@ -9,7 +9,6 @@ public class FaceChanger : MonoBehaviour
     private void Update()
     {
         Texture newTexture = Resources.Load<Texture>("Face/" + newTextureName);
-        Debug.Log(newTexture);
         Material faceMaterial = faceRenderer.material;
         faceMaterial.mainTexture = newTexture;
     }
